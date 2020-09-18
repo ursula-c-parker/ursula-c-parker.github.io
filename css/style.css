@@ -52,7 +52,10 @@ a {
 
 .default {
   background-color: #2e2e2e;
-  padding: 5px 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 5px;
+  padding-bottom: 15px;
   color: white;
 }
 
