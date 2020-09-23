@@ -25,6 +25,9 @@ body {
   background-color: #2e2e2e;
   margin-bottom: 20px;
   overflow: hidden;
+  border-color: #028c00;
+  border-left-style: double;
+  border-left-width: 9px;
 }
 
 a {
