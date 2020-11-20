@@ -1,0 +1,23 @@
+<!doctype html>
+
+<%- include('global/header'); %>
+<%- include('global/navbar'); %>
+  <script>
+    document.title = "Blogs"
+    var element = document.getElementById("blogs");
+    element.classList.add("active");
+  </script>
+
+  <div class="default">
+    <h1 style="text-align: center">Blog Posts</h1>
+
+    <% for(let i=0; i<data.length; i++){ %>
+      <% let titles = data[i].title %>
+      <% let name = titles.split(" ").join("_") + ".html" %>
+      <div class="collection">
+        <a href="<%= name %>" class="collection-item grey darken-3 white-text"><%= titles %></a>
+      </div>
+    <%}%>
+
+  </div>
+  <%- include('global/footer'); %>

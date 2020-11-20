@@ -1,0 +1,35 @@
+[
+  {
+    "user": "hackeradmin",
+    "title": "Hello",
+    "content": "Hello World! I am the creator of this site. I created this site in order to teach people about cybersecurity and ethical hacking. \n You can post questions/blogs in this blog section and connect with others.",
+    "date": "11/2/2020",
+    "likes": "1",
+    "tags": [
+      "ethical hacking",
+      "meta"
+    ]
+  },
+  {
+    "user": "whitehat101",
+    "title": "I am an ethical hacker",
+    "content": "Hello! I am an ethical hacker and I like to protect the internet. I help various companies find security issues. I test many different types of hacks (like SQL injections, XSS attacks, and command execution attacks). \n I work through HackerOne to find different assignments. I have worked for various companies that I unfortunately cannot mention due to my NDA.",
+    "date": "11/3/2020",
+    "likes": "9",
+    "tags": [
+      "ethical hacking",
+      "hackerone"
+    ]
+  },
+  {
+    "user": "ilikemalware",
+    "title": "I like to make computer viruses",
+    "content": "I like to make malware for fun and test them out on my virtual machines. I have them do various things like keylog, take screenshots, and infect files. \n I sometimes code the viruses by myself using C, or I use tools like metasploit to help me create payloads and backdoors. I learned to make malware through tutorials on the internet. I also test these viruses against antivirus in order to test what the best antivirus software may be against viruses that evade antivirus.",
+    "date": "11/4/2020",
+    "likes": "4",
+    "tags": [
+      "malware",
+      "virtual machines"
+    ]
+  }
+]

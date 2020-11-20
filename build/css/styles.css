@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/raleway/v18/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrQ.ttf) format('truetype');
+}
+body {
+  background-color: black;
+  background-image: url("background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-family: 'Raleway';
+  color: white;
+}
+.nav-wrapper {
+  background-image: linear-gradient(90deg, #015400, #2e2e2e);
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-color: #028c00;
+  border-left-style: double;
+  border-left-width: 9px;
+}
+.nav-wrapper a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.nav-wrapper a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.nav-wrapper a.active {
+  background-color: #028c00;
+  color: white;
+}
+a {
+  color: #028c00;
+}
+.navbar {
+  margin-bottom: 20px;
+}
+.default {
+  background-color: #2e2e2e;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  color: white;
+  margin-bottom: 20px;
+}
+iframe {
+  border: 0px;
+  width: 635px;
+  height: 330px;
+  margin-bottom: 40px;
+}
+header {
+  font-family: Arial;
+}
+.page-footer {
+  margin-bottom: 20px;
+  background-image: linear-gradient(90deg, #2e2e2e, #015400);
+  color: #ddd;
+  padding: 0px;
+  height: 70px;
+}

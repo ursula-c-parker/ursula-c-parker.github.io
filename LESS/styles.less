@@ -1,0 +1,81 @@
+@ideGray: #2e2e2e;
+@terminalGreen: #028c00;
+@softWhite: #f2f2f2;
+@lightGray: #ddd;
+@black: #000000;
+@white: #FFFFFF;
+@darkenedGreen: shade(@terminalGreen, 40%);
+
+@import "https://fonts.googleapis.com/css?family=Raleway:wght@400";
+body {
+	background-color: black;
+	background-image: url("background.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 25px;
+	margin-right: 25px;
+	font-family: 'Raleway';
+	color: white;
+}
+.nav-wrapper {
+	background-image: linear-gradient(90deg, @darkenedGreen, @ideGray);
+	margin-bottom: 20px;
+	overflow: hidden;
+	border-color: @terminalGreen;
+	border-left-style: double;
+	border-left-width: 9px;
+	a {
+		float: left;
+		color: @softWhite;
+		text-align: center;
+		padding-left: 10px;
+		padding-right: 15px;
+		text-decoration: none;
+		font-size: 17px;
+		&:hover {
+			background-color: @lightGray;
+			color: black;
+		}
+	}
+	a.active {
+		background-color: @terminalGreen;
+		color: white;
+	}
+}
+a {
+	color: @terminalGreen;
+}
+
+.navbar {
+	margin-bottom: 20px;
+}
+
+.default {
+	background-color: @ideGray;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	color: white;
+	margin-bottom: 20px;
+}
+iframe {
+	border: 0px;
+	width: 635px;
+	height: 330px;
+	margin-bottom: 40px;
+}
+
+header {
+	font-family: Arial;
+}
+
+.page-footer {
+	.navbar();
+	background-image: linear-gradient(90deg, @ideGray, @darkenedGreen);
+	color: @lightGray;
+	padding: 0px;
+	height: 70px;
+}

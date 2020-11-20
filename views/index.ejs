@@ -1,0 +1,23 @@
+<!doctype html>
+
+<%- include('global/header'); %>
+<%- include('global/navbar'); %>
+<script>
+  document.title = "Home"
+  var element = document.getElementById("home");
+  element.classList.add("active");
+</script>
+
+  <div class="default">
+    <h1 style="text-align: center">Cybersecurity & Ethical Hacking</h1>
+
+    <div class="row">
+      <div class="col s6">Ethical Hacking Course: a tutorial<br/><iframe src="https://www.youtube.com/embed/tHd8k54kVs8"></iframe></div>
+      <div class="col s6">Cybersecurity & Ethical Hacking: an intro<br/><iframe src="https://www.youtube.com/embed/qGfZws-dA_c"></iframe></div>
+      <div class="col s6">How To Protect Yourself: some tips<br/><iframe src="https://www.youtube.com/embed/-ni_PWxrsNo"></iframe></div>
+      <div class="col s6">Cybersecurity: a crash Course<br/><iframe src="https://www.youtube.com/embed/bPVaOlJ6ln0"></iframe></div>
+    </div>
+
+  </div>
+
+<%- include('global/footer'); %>
